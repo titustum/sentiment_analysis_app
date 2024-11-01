@@ -20,7 +20,7 @@ This is a simple sentiment analysis web application built using Flask, Python, a
 
 1. **Clone the Repository**:
    ```bash
-    git clone <repository-url>
+    git clone https://github.com/titustum/sentiment_analysis_app.git
     cd sentiment-analysis-app
    ```
 
@@ -48,7 +48,7 @@ This is a simple sentiment analysis web application built using Flask, Python, a
 6. **Access the Application:** Open your web browser and go to:
 
     ```bash
-    http://127.0.0.1:5000/
+    http://127.0.0.1:5599/
     ```
 ## Usage
 
@@ -56,7 +56,7 @@ This is a simple sentiment analysis web application built using Flask, Python, a
 2. Click the "Analyze Sentiment" button.
 3. The application will display the predicted sentiment along with a thumbs up or thumbs down icon.
 
-![Systsem snippet](snippet.PNG)
+![System snippet](snippet.PNG)
 
 ## License
 
