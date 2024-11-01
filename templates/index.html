@@ -32,14 +32,15 @@
             const sentimentText = document.getElementById("sentimentText");
             const sentimentIcon = document.getElementById("sentimentIcon");
 
-            // Update the text and icon based on sentiment
+             // Update the text and icon based on sentiment
             if (data.sentiment === 'positive') {
                 sentimentText.innerText = "Sentiment: Positive";
                 sentimentIcon.className = "fas fa-thumbs-up ml-2 text-green-500";
-            } else {
+            }  else {
                 sentimentText.innerText = "Sentiment: Negative";
                 sentimentIcon.className = "fas fa-thumbs-down ml-2 text-red-500";
             }
+
         }
     </script>
 </body>
