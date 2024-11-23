@@ -12,6 +12,14 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 df = pd.read_csv('Reviews.csv')
 print(df.head())
 
+#get the info
+print("Data info:")
+print(df.info())
+
+#describe data
+print("Data description:")
+print(df.describe())
+
 # 2. Data Cleaning
 df.dropna(subset=['Text'], inplace=True)
 df['Text'] = df['Text'].str.replace(r'[^\w\s]', '', regex=True).str.lower()
